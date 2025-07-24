@@ -10,9 +10,9 @@ st.write("It is more than just a motto — it’s a movement. Join us as we expl
 st.markdown("Empower yourself with the right tools, guidance, and mindset to unlock your true potential in today’s evolving professional world")
 st.caption("Your career won't wait—why should you? Let's level up together.")
 
-st.image("image.png")
-st.audio("speech.wav")
-st.video("video.mp4")
+st.image("streamlit/image.png")
+st.audio("streamlit/speech.wav")
+st.video("streamlit/video.mp4")
 
 # st.checkbox('Select from these:'['jungkook','taehyung', 'namjoon', 'yoongi']) <-- wrong
 # Python doesn’t allow strings to be indexed with lists, only integers. That’s why it raised a TypeError.Use multiple st.checkbox() calls for each name, or use st.multiselect() to let users select multiple options from a list.
