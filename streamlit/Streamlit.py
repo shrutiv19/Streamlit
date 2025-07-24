@@ -55,7 +55,7 @@ st.info('Information')
 st.exception(RuntimeError('RuntimeError execption'))
 
 st.sidebar.title('Keep Learning')
-st.sidebar.image('image.png')
+st.sidebar.image('streamlit/image.png')
 # in sidebar, the img, text, audio, video anythinng will simply be displayed on the side of the page, and to apply sidebar we can simply add .sidebar inbetween the st. commands, for e.g., st.sidebar.image("image.png")
 
 df = pd.DataFrame(np.random.randn(50,20), columns=("col %d"%i for i in range(20)))
